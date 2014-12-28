@@ -1,0 +1,152 @@
+V "GNAT Lib v2012"
+M P W=b
+A -gnatA
+P SS ZX
+R nnnnnnnnnnvnnnnnnnvnnvnnvvnnvvnvnvnnvnnnnvnnvnnnnvnvnnnnnnvnnvnvnnnnnnvnnnnnv1nv1+nnnv1+nn
+
+U main%b		main.adb		ab853c86 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aproximate%s		aproximate.adb		aproximate.ali
+W budget%s		budget.adb		budget.ali
+W nettypes%s		nettypes.ads		nettypes.ali
+W perebor%s		perebor.adb		perebor.ali
+W read%s		read.adb		read.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-flteio.ads		20120510125752 e18a47a0
+D a-inteio.ads		20120510125752 f64b89a4
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-reatim.ads		20120510125754 63f07669
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-tiflio.ads		20120510125800 56fbda09
+D a-tiinio.ads		20120510125800 aa04e5d6
+D a-unccon.ads		20120510125800 f9eb8f06
+D aproximate.ads	20130215141254 b2f3c36a
+D budget.ads		20130215141252 275897cd
+D interfac.ads		20120510125814 129923ea
+D i-c.ads		20120510125814 5421119b
+D i-cstrin.ads		20120510125814 341d0ddf
+D i-cstrea.ads		20120510125814 1bd72c32
+D main.adb		20130217111418 2fed017a
+D nettypes.ads		20130215141256 c1da84dd
+D perebor.ads		20130217111320 d22714d9
+D read.ads		20130215141254 2d92c28f
+D system.ads		20120510125846 6daf90c4
+D s-atacco.ads		20120510125818 4c36d12f
+D s-conca2.ads		20120510125822 fbd0f2fc
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-imgrea.ads		20120510125826 c7a851e2
+D s-multip.ads		20120510125828 38ac9f73
+D s-osinte.ads		20120510125828 ecf1fbfd
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stausa.ads		20120510125834 017a0a05
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-tasinf.ads		20120510125836 859198ad
+D s-taspri.ads		20120510125836 196697f7
+D s-taprop.ads		20120510125834 1dd2e1b6
+D s-taskin.ads		20120510125836 5e24fb30
+D s-taprob.ads		20120510125834 502249e3
+D s-tpoben.ads		20120510125836 20b7a89e
+D s-tasren.ads		20120510125836 a67a9949
+D s-tassta.ads		20120510125836 3a253871
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+D s-win32.ads		20120510125840 07238fa2
+X 1 ada.ads
+16K9*Ada 19e8 20|1r6 1r19 1r40 2r6 2r19 2r40
+X 4 a-flteio.ads
+20K13*Float_Text_IO[11|45] 20|1w44 2r44
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[12|45] 20|1w23 2r23
+X 10 a-textio.ads
+49K13*Text_IO 471e16 20|1w10 2r10
+242U14*Put 20|61s4 65s4
+263U14*Put_Line 20|66s4 67s4
+X 12 a-tiinio.ads
+65U14*Put 20|63s7[5|18]
+X 14 aproximate.ads
+4K9*Aproximate 7e15 20|4w6 5r6
+X 15 budget.ads
+4K9*Budget 6e11 20|1w75 2r75
+X 20 main.adb
+7U11*main 7b11 68l5 68t9
+8r4 par{21|11R9} 60m4
+8r8 par1{21|11R9} 55m72 55r72 56m4 57r12 58r19 63r11 67r23
+8r13 par2{21|11R9} 57m4 59r19
+9w14 Max 17b19 30l8 30t11 48r7 60r11
+10U17 Calc 10>22 18b17 24l11 24t15 48s11
+10r22 input{21|11R9} 18b22 21r30 22r20
+11V16 GetMax{21|11R9} 26b16 29l11 29t17 60s15
+13r7 max{21|11R9} 21r40 22r13 28r17
+14i7 count{integer} 20r10 20r19 21r15
+32T14 Maxis 34l8 34e13 35b14 49l8 49t13 51r33
+33Y13 start 33>19 33>36 33>62 33>65 33>78 40b14 46l11 46t16 58s13 59s13
+33r19 data1{21|11R9} 41r18
+33a36 limit1{21|2A9} 42r19
+33i62 b1{integer} 43r17
+33i65 b2{integer} 44r17
+33i78 t1{integer} 45r15
+36r7 data{21|11R9} 41m10 47m7 47r26 48r16
+37a7 limit{21|2A9} 42m10 47r31
+38i7 b11{integer} 43m10 47r37
+38i11 b22{integer} 44m10 47r41
+38i15 t{integer} 45m10 47r45
+40r20 data1{21|11R9}
+40a36 limit1{21|2A9}
+40i62 b1{integer}
+40i65 b2{integer}
+40i78 t1{integer}
+51A9 tasks(32T14)<integer> 52r11
+52a4 Steps{51A9} 58r4 59r4
+62i8 i{integer} 63r18
+X 21 nettypes.ads
+1K9*NetTypes 20|1w59 2r59 21|23e13
+2A9*DataArrayPar_Seq(integer)<integer> 20|33r44 37r14 40r44
+11R9*TPar_Seq 20|8r19 10r29 11r30 13r12 18r29 26r30 33r26 36r13 40r26 21|19e17
+16f10*F{float} 20|21r36 21r44 67r28
+17a10*X{2A9} 20|56m9 63r16
+X 22 perebor.ads
+4K9*Perebor 20|1w83 2r83 22|6e12
+5V13*PereborPar{21|11R9} 20|47s15
+X 23 read.ads
+4K9*Read 20|1w69 2r69 23|7e9
+5U14*Par_Seq_Read 20|55s4
+5s27 file1{string} 20|55r17
+5s33 file2{string} 20|55r40
+5r51 data{21|11R9} 20|55r63
+

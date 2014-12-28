@@ -1,0 +1,116 @@
+V "GNAT Lib v2012"
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnvnnvnnnnnnnnnnnnnn
+
+U perebor%b		perebor.adb		1d1bd9dc OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W aproximate%s		aproximate.adb		aproximate.ali
+W budget%s		budget.adb		budget.ali
+W nettypes%s		nettypes.ads		nettypes.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U perebor%s		perebor.ads		13fd9004 EE NE OO PK
+W nettypes%s		nettypes.ads		nettypes.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-flteio.ads		20120510125752 e18a47a0
+D a-inteio.ads		20120510125752 f64b89a4
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-tiflio.ads		20120510125800 56fbda09
+D a-tiinio.ads		20120510125800 aa04e5d6
+D a-unccon.ads		20120510125800 f9eb8f06
+D aproximate.ads	20130215141254 b2f3c36a
+D budget.ads		20130215141252 275897cd
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D nettypes.ads		20130215141256 c1da84dd
+D perebor.ads		20130217111320 d22714d9
+D perebor.adb		20130217122124 b4e126af
+D system.ads		20120510125846 6daf90c4
+D s-conca2.ads		20120510125822 fbd0f2fc
+D s-conca5.ads		20120510125822 1039cea1
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-imgrea.ads		20120510125826 c7a851e2
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 19|1r36 1r49 1r68 2r36 2r49 2r68
+X 4 a-flteio.ads
+20K13*Float_Text_IO[10|45] 19|1w53 2r53
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 19|1w72 2r72
+X 9 a-textio.ads
+49K13*Text_IO 471e16 19|1w40 2r40
+242U14*Put 19|63s16 67s16
+263U14*Put_Line 19|58s16 68s16 69s16
+X 11 a-tiinio.ads
+65U14*Put 19|65s19[5|18]
+X 13 aproximate.ads
+4K9*Aproximate 7e15 19|1w24 2r24
+5V13*AproximatePar{float} 19|46s15 56s21
+X 14 budget.ads
+4K9*Budget 6e11 19|1w16 2r16
+5V13*BudgetPar_Seq{boolean} 19|55s15
+X 17 nettypes.ads
+1K9*NetTypes 23e13 18|1w6 2r5 19|1w6 2r6
+2A9*DataArrayPar_Seq(integer)<integer> 18|5r47 19|5r47 28r44 42r13
+11R9*TPar_Seq 19e17 18|5r30 5r110 19|5r30 5r110 6r35 28r27 40r11
+16f10*F{float} 19|78m10
+17a10*X{2A9} 19|10r19 11m18 16r28 18m27 20m27 32r22 48r24 61r34 65r26 76m12
+X 18 perebor.ads
+4K9*Perebor 6l5 6e12 19|4b14 84l5 84t12
+5V13*PereborPar{17|11R9} 5>24 5>40 5>65 5>73 5>91 19|5b13 80l8 80t18
+5r24 data{17|11R9} 19|5b24 45r13
+5a40 limit{17|2A9} 19|5b40 51r25
+5i65 border1{integer} 19|5b65 52r18
+5i73 border2{integer} 19|5b73 52r26
+5i91 t{integer} 19|5b91 58r34
+X 19 perebor.adb
+6U17 Plus 6b17 6=22 6>45 6>53 26l11 26t15 52s10
+6r22 data{17|11R9} 10r14 11m13 16r23 18m22 20m22
+6i45 border1{integer} 14r24
+6i53 border2{integer} 7r24
+7i10 i{integer} 10r21 11r20 14r20 16r30 18r29 20r29 23m16 23r21
+8b10 f{boolean} 13m13 15r20 17m22
+28V16 Stop{boolean} 28b16 28>21 28>37 37l11 37t15 51s17
+28r21 data{17|11R9} 32r17
+28a37 limit{17|2A9} 31r19 32r30
+29b10 f{boolean} 33m16 36r17
+31i14 i{integer} 32r24 32r36
+39f7 maxF{float} 46m7 57r24 59m16 69r35 78r15
+40r7 td{17|11R9} 45m7 46r29 48r21 51r22 52m15 52r15 55r29 56r35 61r31 65r23
+. 76m9 78m7 79r14
+41f7 apro{float} 56m13 57r17 59r24
+42a7 maxX{17|2A9} 48m9 61m19 76r21
+43i7 count{integer} 53m10 53r19 58r51
+47i11 i{integer} 48r14 48r26
+60i20 i{integer} 61r24 61r36
+64i20 i{integer} 65r28
+75i11 i{integer} 76r14 76r26
+

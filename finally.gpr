@@ -1,0 +1,6 @@
+project Finally is
+
+   for Main use ("main.adb");
+
+end Finally;
+

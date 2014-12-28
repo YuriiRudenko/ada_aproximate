@@ -1,0 +1,113 @@
+V "GNAT Lib v2012"
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnvnnnvnnvnnnnnnnnnnnnnn
+
+U read%b		read.adb		d3d92860 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W nettypes%s		nettypes.ads		nettypes.ali
+
+U read%s		read.ads		c3e47d82 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W nettypes%s		nettypes.ads		nettypes.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-flteio.ads		20120510125752 e18a47a0
+D a-inteio.ads		20120510125752 f64b89a4
+D a-ioexce.ads		20120510125752 8b9de6cd
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-textio.ads		20120510125800 386df5d4
+D a-tiflio.ads		20120510125800 56fbda09
+D a-tiinio.ads		20120510125800 aa04e5d6
+D a-unccon.ads		20120510125800 f9eb8f06
+D interfac.ads		20120510125814 129923ea
+D i-cstrea.ads		20120510125814 1bd72c32
+D nettypes.ads		20130215141256 c1da84dd
+D read.ads		20130215141254 2d92c28f
+D read.adb		20130215141254 103d55e2
+D system.ads		20120510125846 6daf90c4
+D s-crtl.ads		20120510125824 ac77b159
+D s-exctab.ads		20120510125824 66e51330
+D s-ficobl.ads		20120510125824 443b9d66
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-wchcon.ads		20120510125840 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 1r19 1r40 2r5 2r18 2r39 17|1r6 1r19 1r40 2r5 2r18 2r39
+X 4 a-flteio.ads
+20K13*Float_Text_IO[10|45] 16|1w44 2r43 17|1w44 2r43
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 16|1w23 2r22 17|1w23 2r22
+X 9 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 2r9 17|1w10 2r9
+52P9*File_Type(369R9) 17|6r10
+53n23*In_File{53E9} 17|13r14 36r14
+92U14*Open 17|13s7 36s7
+98U14*Close 17|35s7
+X 10 a-tiflio.ads
+51U14*Get 17|38s9[4|20]
+X 11 a-tiinio.ads
+50U14*Get 17|14s7[5|18] 16s10[5|18] 33s7[5|18] 34s7[5|18]
+X 15 nettypes.ads
+1K9*NetTypes 23e13 16|1w59 2r58 17|1w59 2r58
+2A9*DataArrayPar_Seq(integer)<integer>
+4A9*TempArray1(integer)<integer> 17|8r14
+5A9*TempArray2(integer)<integer><integer> 17|7r13
+6A9*TempArray3(float)<integer> 17|10r14
+7A9*TempArray4(float)<integer><integer> 17|11r14
+8A9*TLifeTime(float)<integer><integer>
+11R9*TPar_Seq 19e17 16|5r61 17|5r61
+13i10*m{integer} 17|14m18
+13i12*n{integer} 17|34m18
+13i14*c{integer} 17|33m18
+14a10*lambda{2A9} 17|29m15
+14a17*lambda1{2A9} 17|30m15
+15a10*cc{2A9} 17|31m15
+18a10*maintime{8A9} 17|56m22
+18a20*reservetime{8A9} 17|61m22
+X 16 read.ads
+4K9*Read 7l5 7e9 17|4b14 69l5 69t9
+5U14*Par_Seq_Read 5>27 5>33 5<51 17|5b14 65l8 65t20
+5s27 file1{string} 17|5b27 13r22
+5s33 file2{string} 17|5b33 36r22
+5r51 data{15|11R9} 17|5b51 14m13 14r13 29m10 30m10 31m10 33m13 33r13 34m13
+. 34r13 56m17 61m17
+X 17 read.adb
+6p7 f{9|52P9} 13m12 13r12 14r11 16r14 33r11 34r11 35m13 35r13 36m12 36r12
+. 38r13
+7a7 temp{15|5A9} 22m10 29r28 30r29 31r24
+8a7 temp1{15|4A9} 15r16 16m16 16r16 20r16 22r23
+9i7 i{integer} 18m7 22r15 25m13 25r18 40m7 44r16 47m13 47r18 50m7 54m13 54r18
+. 56r31
+9i9 j{integer} 19m7 21m10 21r15 22r17 24m13 41m7 43m10 43r15 44r18 46m13
+. 51m7 59m13 59r18 61r34
+10a7 temp2{15|6A9} 37r16 38m15 38r15 42r16 44r24
+11a7 temp3{15|7A9} 44m10 56r39 61r42
+15i11 i{integer} 16r22
+20i11 k{integer} 22r29 23r14
+28i11 i{integer} 29r22 29r33 30r23 30r34 31r18 31r29
+37i11 i{integer} 38r21
+42i11 k{integer} 44r30 45r14
+52i11 k{integer} 53r14 56r45 61r48
+55i17 z{integer} 56r33 56r47
+60i17 z{integer} 61r36 61r50
+

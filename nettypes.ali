@@ -1,0 +1,31 @@
+V "GNAT Lib v2012"
+A -gnatA
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnn
+
+U nettypes%s		nettypes.ads		c1da84dd NE OO PK
+
+D nettypes.ads		20130215141256 c1da84dd
+D system.ads		20120510125846 6daf90c4
+X 1 nettypes.ads
+1K9*NetTypes 23l5 23e13
+2A9*DataArrayPar_Seq(integer)<integer> 14r26 15r14 17r13
+3A9*DataArrayPar_SeqFloat(integer)<integer>
+4A9*TempArray1(integer)<integer>
+5A9*TempArray2(integer)<integer><integer>
+6A9*TempArray3(float)<integer>
+7A9*TempArray4(float)<integer><integer>
+8A9*TLifeTime(float)<integer><integer> 18r33
+9A9*TM(float)<integer>
+11R9*TPar_Seq 19e17
+13i10*m{integer}
+13i12*n{integer}
+13i14*c{integer}
+14a10*lambda{2A9}
+14a17*lambda1{2A9}
+15a10*cc{2A9}
+16f10*F{float}
+17a10*X{2A9}
+18a10*maintime{8A9}
+18a20*reservetime{8A9}
+

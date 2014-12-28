@@ -1,0 +1,103 @@
+V "GNAT Lib v2012"
+A -gnatA
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnnnnvvnvnvnnvnnnnvnnvnnnnvnvnnnnnnvnnnnvnnnvnnvnnnnnv1nv1+nnnv1+nn
+
+U budget%b		budget.adb		c816c850 OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W nettypes%s		nettypes.ads		nettypes.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U budget%s		budget.ads		e6821310 EE NE OO PK
+W nettypes%s		nettypes.ads		nettypes.ali
+
+D ada.ads		20120510125802 3ffc8e18
+D a-except.ads		20120510125752 ec1b44c1
+D a-finali.ads		20120510125752 52ecdc1b
+D a-reatim.ads		20120510125754 63f07669
+D a-stream.ads		20120510125756 2ca4ee37
+D a-tags.ads		20120510125758 6c0509d0
+D a-unccon.ads		20120510125800 f9eb8f06
+D budget.ads		20130215141252 275897cd
+D budget.adb		20130217111320 2e94db40
+D interfac.ads		20120510125814 129923ea
+D i-c.ads		20120510125814 5421119b
+D i-cstrin.ads		20120510125814 341d0ddf
+D nettypes.ads		20130215141256 c1da84dd
+D system.ads		20120510125846 6daf90c4
+D s-atacco.ads		20120510125818 4c36d12f
+D s-exctab.ads		20120510125824 66e51330
+D s-finmas.ads		20120510125824 b95bb341
+D s-finroo.ads		20120510125824 4ff27390
+D s-imgint.ads		20120510125826 02dbe0c2
+D s-multip.ads		20120510125828 38ac9f73
+D s-osinte.ads		20120510125828 ecf1fbfd
+D s-parame.ads		20120510125832 b6e20cc0
+D s-pooglo.ads		20120510125832 542f33d0
+D s-secsta.ads		20120510125832 eea35a36
+D s-soflin.ads		20120510125832 24c8153c
+D s-stache.ads		20120510125834 596fc1b4
+D s-stausa.ads		20120510125834 017a0a05
+D s-stalib.ads		20120510125834 f78bcf95
+D s-stoele.ads		20120510125834 facd7d98
+D s-stoele.adb		20120510125834 afc5dc80
+D s-stopoo.ads		20120510125834 7b8fbeee
+D s-tasinf.ads		20120510125836 859198ad
+D s-taspri.ads		20120510125836 196697f7
+D s-taprop.ads		20120510125834 1dd2e1b6
+D s-taskin.ads		20120510125836 5e24fb30
+D s-taprob.ads		20120510125834 502249e3
+D s-tpoben.ads		20120510125836 20b7a89e
+D s-tasren.ads		20120510125836 a67a9949
+D s-tassta.ads		20120510125836 3a253871
+D s-traent.ads		20120510125838 5221ee41
+D s-unstyp.ads		20120510125838 6ae15c76
+D s-win32.ads		20120510125840 07238fa2
+X 8 budget.ads
+4K9*Budget 6l5 6e11 9|4b14 66l5 66t11
+5V13*BudgetPar_Seq{boolean} 5>27 9|5b13 62t7
+5r27 data{13|11R9} 9|5b27 52r25 57r20
+X 9 budget.adb
+6w17 Sum 13b22 22l11 22t14 41r10 56r16
+7U20 Plus 7>25 14b20 17l14 17t18 41s14
+7i25 var{integer} 14b25 16r22
+8V19 GetSum{integer} 18b19 21l14 21t20 56s20
+10i10 s{integer} 16r13 16r18 20r20
+24T17 StepSum 26l11 26e18 28b17 42l11 42t18 44r36
+25Y16 Start 25>22 25>39 25>44 33b17 37l14 37t19 52s19
+25r22 data1{13|11R9} 34r21
+25i39 fst1{integer} 35r20
+25i44 lst1{integer} 36r20
+29r10 data{13|11R9} 34m13 39r22 39r33
+30i10 fst{integer} 35m13 38r19
+30i14 lst{integer} 36m13 38r24
+31i10 s{integer} 39m13 39r18 41r19
+33r23 data1{13|11R9}
+33i40 fst1{integer}
+33i45 lst1{integer}
+38i14 i{integer} 39r30 39r40
+44A12 tasks(24T17)<integer> 45r14
+45a7 Steps{44A12} 51r16 52r10
+46i7 i{integer} 49m7 52r30 53m10 53r15
+46i9 j{integer} 50m7 52r32 54m10 54r15
+47i7 summa{integer} 56m7 57r11
+51i11 k{integer} 52r16
+X 13 nettypes.ads
+1K9*NetTypes 8|1w6 2r5 9|1w6 2r5 13|23e13
+2A9*DataArrayPar_Seq(integer)<integer>
+11R9*TPar_Seq 8|5r33 9|5r33 25r29 29r16 33r30 13|19e17
+13i14*c{integer} 9|57r25
+15a10*cc{2A9} 9|39r27
+17a10*X{2A9} 9|39r38
+
